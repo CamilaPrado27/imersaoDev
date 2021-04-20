@@ -1,0 +1,149 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 400px;
+    background-image: url('https://images.pexels.com/photos/6114992/pexels-photo-6114992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-color: #111;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+th, tr, td {
+    border: solid 1px white;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.introducao{
+    background-color:	rgba(220, 220, 220, 0.712);
+    text-align: center;
+    font-size: 17px;
+}
+
+button{
+    border-radius: 2px;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.red{
+    background-color: #B22222;
+}
+
+.green{
+    background-color:#228B22 ;
+}
+.blue{
+    background-color: #008B8B;
+}
+
+.yellow{
+    background-color:#FFFF00;
+    color:black;
+    border: 2px solid #000000;
+    box-shadow: 2px 2px 0px #000000;
+}
+
+.purple{
+    background-color: #9932CC;
+}
+
+.purple:hover{
+    background-color: 	#9400D3;
+}
+
+.yellow:hover{
+    background-color:#FFD700;
+}
+
+.blue:hover{
+    background-color:#008080 ;
+}
+.red:hover{
+    background-color: #8B0000;
+}
+
+.green:hover{
+    background-color: #006400;
+}
+
+.regras{
+    text-align: justify;
+    margin-top: 50%;
+    display: block;
+    width: 650px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    position: relative;
+    border: solid white 2px;
+    border-radius:3px;
+    background-color: rgba(240, 248, 255, 0.5);
+    padding-left: 4px;
+    font-size: 17px;
+}
+
+h3{
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #363636;
+}
+
+input{
+    border: 2px solid #000000;
+    box-shadow: 2px 2px 0px #000000;
+    margin-bottom: 20px;
+}

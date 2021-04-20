@@ -1,0 +1,110 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 600px;
+  background-image: url('https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?cs=srgb&dl=pexels-suzy-hazelwood-1629236.jpg&fm=jpg');
+  background-color:black ;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+  
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 30vh;
+}
+  
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+  
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+  
+.page-logo {
+  width: 200px;
+}
+  
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+  
+@media (max-height: 500px) {
+  body {
+    min-height:800px;
+  }
+}
+
+.central {
+  margin-left: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 10px;
+  background-color: black;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.botao{
+  box-sizing: border-box;
+  font-size: 25px;
+  font-family: 'Roboto Mono', monospace;
+  width: 300px;
+  height: 50px;
+  background-color: #20B2AA;
+  border: 7px bold;
+  cursor: pointer;
+  box-shadow: 2px 2px#0000CD;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.botao:hover{
+  background-color:	#008080;
+  color: white;
+}
+
+#respostaUsuario{
+  box-sizing: border-box;
+  font-family: 'Roboto Mono',monospace;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.219);
+  height: 50px;
+  width: 340px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 15px;
+}
+
+#infoUsuario{
+  color: white;
+  padding-bottom: 5px;
+}
+#mostrarResposta{
+  color: white;
+}
+
+#dica{
+  background-color:#20B2AA;
+  color:black;
+  border: 2px solid #0000CD;
+  box-shadow: 2px 2px 0px #0000CD;
+}
+#dica:hover{
+  background-color:	#008080;
+  color: white;
+}

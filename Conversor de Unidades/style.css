@@ -1,0 +1,36 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    min-height: 400px;
+    background-image:url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?cs=srgb&dl=pexels-francesco-ungaro-998641.jpg&fm=jpg');
+  background-size:cover;
+  }
+  
+  
+  .container{
+    text-align: center;
+    padding:20px;
+    height:100vh;
+  }
+  
+  .page-title{
+    color: white;
+    margin:0 0 5px;
+  }
+  
+  .page-subtitle{
+    color:white;
+    margin-top:5px;
+  }
+  .logo-page{
+    width:200px;
+  }
+  .alura-logo{
+    width:40px;
+    position:absolute;
+    top:10px;
+    right:10px;
+  }
+  
+  .conteudo{
+    margin-top:120px;
+  }

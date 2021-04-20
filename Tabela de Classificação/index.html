@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Imersão Dev</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="codigo.js"></script>
+    </head>
+    <body>
+        <h1>Tabela de classificação</h1>
+        
+            <p class="introducao">Classificação para um campeaonato de xadrez.</p>
+            <div>
+                <input type="text"id="novoJogador" placeholder="Nome do jogador">
+                <button class="yellow" onclick="adcionarNovoJogador()"> Adicionar </button>
+              </div>
+
+        <table style="width:100%">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Vitórias</th>
+                    <th>Empates</th>
+                    <th>Derrotas</th>
+                    <th>Pontos</th>
+                    <th colspan="4">Ações</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaJogadores">
+                <tr>
+                    <td>Paulo</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>7</td>
+                    <td><button class="green" onClick="adicionarVitoria()">Vitória</button></td>
+                    <td><button class="blue" onClick="adicionarEmpate()">Empate</button></td>
+                    <td><button class="red" onClick="adicionarDerrota()">Derrota</button></td>
+                    <td><button class="purple" onClick="removerJogador()">Remover Jogador</button></td>
+                </tr>
+
+                <tr>
+                    <td>Rafa</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>7</td>
+                    <td><button class="green" onClick="adicionarVitoria()">Vitória</button></td>
+                    <td><button class="blue" onClick="adicionarEmpate()">Empate</button></td>
+                    <td><button class="red" onClick="adicionarDerrota()">Derrota</button></td>
+                    <td><button class="purple" onClick="removerJogador()">Remover Jogador</button></td>
+                </tr>
+
+            </tbody>
+
+        </table>
+        <div id="regras">
+            <h3 >Como funciona a classificação:</h3>
+            <p class="regras">
+                 Para cada Vitória serão adicionados 2 pontos;
+                <br> 
+                 Para cada Empate apenas 1 ponto será adicionado;
+                <br>
+                 E para cada Derrota será retirado 1 ponto;
+                <br>
+                 Portanto, se sua pontuação é grande, considere-se um Mestre do Xadrez
+                <br><br>
+                 Para jogar Xadrez online com seus amigos, <a href="https://www.chess.com/pt-BR" target="_blanck">Clique Aqui</a>
+            </p>
+            
+        </div>
+    </body>
+    
+
+</html>
